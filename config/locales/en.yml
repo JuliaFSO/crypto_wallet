@@ -1,0 +1,34 @@
+en:
+  current_locale: "English"
+  title: "Crypto Wallet"
+  messages:
+    welcome: "Welcome to Crypto Wallet"
+    about: "This is the Crypto Wallet, an app to register and keep up with your cryptocoins."
+    menu: "Select an option below:"
+    confirm: "Are you sure?"
+  links:
+    edit: "Edit"
+    show: "Show"
+    delete: "Delete"
+    new_coin: "Add New Coin"
+    new_mining_type: "Add New Mining Type"
+    back: "Back"
+    coins: "Coins"
+    mining_type: "Mining Types"
+  new:
+    coin: "New Coin"
+    mining_type: "New Type of Mining"
+  editing:
+    coin: "Edit Coin"
+    mining_type: "Edit Type of Mining"
+  showing:
+    coin: "Coin"
+    mining_type: "Show Type of Mining"
+  notice_coin:
+    created: "Coin was successfully created."
+    updated: "Coin was successfully updated."
+    destroyed: "Coin was successfully destroyed."
+  notice_mining_type:
+    created: "Mining type was successfully created."
+    updated: "Mining type was successfully updated."
+    destroyed: "Mining type was successfully destroyed."

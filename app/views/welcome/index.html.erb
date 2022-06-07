@@ -1,0 +1,9 @@
+<div class="jumbotron">
+  <h1 class="display-4"><%= t('messages.welcome')%></h1>
+  <p class="lead"><%= t('messages.about')%></p>
+  <hr class="my-4">
+  <p><%= t('messages.menu')%></p>
+  <%= link_to t('links.coins'), coins_path, class:"btn btn-primary btn-lg" %>
+  <%= link_to t('links.mining_type'), mining_types_path, class:"btn btn-primary btn-lg" %>
+</div>
+

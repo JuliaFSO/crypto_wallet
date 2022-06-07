@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+<div class="container d-flex justify-content-center">
+  <div class="card mb-3" style="width: 540px;">
+    <div class="card-header">
+      <strong><%= @mining_type.description %></strong>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title"><strong><%= @mining_type.class.human_attribute_name(:description)%>:</strong> <%= @mining_type.description %></h5>
+      <p class="card-text">  <strong><%= @mining_type.class.human_attribute_name(:acronym)%>:</strong> <%= @mining_type.acronym %></p>
+    </div>
+  </div>
+</div>
+<%= link_to t('links.edit'), edit_mining_type_path(@mining_type), class:"btn btn-outline-secondary" %>
+<%= link_to t('links.back'), mining_types_path, class:"btn btn-outline-secondary" %>

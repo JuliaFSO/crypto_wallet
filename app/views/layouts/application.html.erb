@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CryptoWallet</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="container">
+    <nav class="navbar bg-light fixed-top">
+      <div class="container d-flex justify-content-between">
+        <div class="nav-item">
+          <% if I18n.locale == I18n.default_locale %>
+            <%= link_to image_tag('https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/300px-Flag_of_the_United_Kingdom.svg.png', border: 0, width: 20, height: 15), :locale=>'en', class:"navbar-brand" %>
+          <% else %>
+            <%= link_to image_tag('https://upload.wikimedia.org/wikipedia/commons/0/01/Brazil_flag_300.png', border: 0, width: 20, height: 15), :locale=>'pt-BR', class:"navbar-brand" %>
+          <%end%>
+        </div>
+        <div class="nav-item">
+          <%= link_to 'HOME', root_path, class:"btn btn-outline-primary" %>
+        </div>
+      </div>
+    </nav>
+    <div class="text-center">
+      <h1><%= t('title') %></h1>
+      <br>
+      <%= yield %>
+      <br>
+    </div>
+    <nav class="navbar fixed-bottom bg-light">
+      <div class="container d-flex justify-content-center">
+        <p class="mb-1">made by JuliaFSO 2022</p>
+      </div>
+    </nav>
+  </body>
+</html>

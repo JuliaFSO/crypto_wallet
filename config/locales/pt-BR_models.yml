@@ -1,0 +1,31 @@
+'pt-BR':
+  activerecord:
+    models:
+      coin:
+        one: Moeda
+        other: Moedas
+      mining_type: 
+        one: Tipo de Mineração
+        other: Tipos de Mineração
+    attributes:
+      coin:
+        description: Descrição
+        acronym: Sigla
+        url_image: Imagem
+        mining_type: Tipo de Mineração
+        mining_type_id: Tipo de Mineração
+        updated_at: Atualizado em
+        created_at: Criado em
+        notice:
+          created: "Moeda adicionada com sucesso."
+          updated: "Moeda atualizada com sucesso."
+          destroyed: "Moeda deletada com sucesso."
+      mining_type:
+        description: Descrição
+        acronym: Sigla
+        updated_at: Atualizado em
+        created_at: Criado em
+        notice:
+          created: "Tipo de Mineração adicionada com sucesso."
+          updated: "Tipo de Mineração atualizada com sucesso."
+          destroyed: "Tipo de Mineração deletada com sucesso."

@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+<div class="container d-flex justify-content-center">
+  <div class="card mb-3" style="width: 540px;">
+    <div class="card-header">
+      <h3><strong><%= @coin.description %></strong></h3>
+    </div>
+    <div class="row g-0">
+      <div class="col-md-6" style="overflow: hidden;">
+        <%= image_tag @coin.url_image, width: 250, class: "m-2" %>
+      </div>
+      <div class="col-md-6">
+        <div class="card-body d-flex align-items-center flex-column mb-3">
+          <div class="mb-auto p-2"><p class="card-text m-1"><strong><%= @coin.class.human_attribute_name(:description)%>:</strong> <%= @coin.description %></p></div>
+          <div class="p-2"><p class="card-text m-1"><strong><%= @coin.class.human_attribute_name(:acronym)%>:</strong> <%= @coin.acronym %></p></div>
+          <div class="p-2"><p class="card-text m-1"><strong><%= @coin.class.human_attribute_name(:url_image)%>:</strong> <%= image_tag @coin.url_image, width: 50 %></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%= link_to t('links.edit'), edit_coin_path(@coin), class:"btn btn-outline-secondary" %>
+<%= link_to t('links.back'), coins_path, class:"btn btn-outline-secondary" %>
