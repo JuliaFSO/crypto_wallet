@@ -1,24 +1,31 @@
-# README
+# Crypto Wallet
+### CRUD Ruby on Rails
+> An app to register and keep up with your cryptocoins
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Dependencies**
+* Ruby 2.5.1
+* Rails 5.2.4
+* Sqlite3
 
-Things you may want to cover:
+**Setup**
+* `git clone https://github.com/JuliaFSO/crypto_wallet.git`
+* `cd crypto_wallet`
+* `rails dev:setup`
+* `rails s`
+* Open http://localhost:3000
 
-* Ruby version
+**Languages available**
+* English
+* Portuguese
 
-* System dependencies
+### Footages
 
-* Configuration
+![1](https://user-images.githubusercontent.com/81381511/172503876-7cdb60bc-66f3-4881-88ed-07d54be55504.png)
 
-* Database creation
+![2](https://user-images.githubusercontent.com/81381511/172500654-79f434a7-b6c7-4e4b-b7f6-3c5dfb5dd178.png)
 
-* Database initialization
+![3](https://user-images.githubusercontent.com/81381511/172500666-502643f1-d981-43dd-a2d5-cf70d8245b31.png)
 
-* How to run the test suite
+![7](https://user-images.githubusercontent.com/81381511/172504213-33ebf601-3ced-45ce-a171-2a37cf745f73.png)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![6](https://user-images.githubusercontent.com/81381511/172500709-d61e7a17-aa50-46ec-90b1-022d98fb4bfc.png)
