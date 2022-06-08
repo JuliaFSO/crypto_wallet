@@ -1,4 +1,11 @@
-<p id="notice"><%= notice %></p>
+<% if notice %>
+  <div id="notice", class="alert alert-dismissible fade show", role="alert">
+    <p><%= notice %></p>
+    <a href data-bs-dismiss="alert" aria-label="Close" style="text-decoration: none">
+      x
+    </a>
+  </div>
+<% end %>
 <div class="container d-flex justify-content-center">
   <div class="card mb-3" style="width: 540px;">
     <div class="card-header">

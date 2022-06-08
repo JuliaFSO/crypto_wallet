@@ -3,7 +3,7 @@ en:
   title: "Crypto Wallet"
   messages:
     welcome: "Welcome to Crypto Wallet"
-    about: "This is the Crypto Wallet, an app to register and keep up with your cryptocoins."
+    about: "This is Crypto Wallet, an app to register and keep up with your cryptocoins."
     menu: "Select an option below:"
     confirm: "Are you sure?"
   links:
@@ -17,13 +17,13 @@ en:
     mining_type: "Mining Types"
   new:
     coin: "New Coin"
-    mining_type: "New Type of Mining"
+    mining_type: "New Mining Type"
   editing:
     coin: "Edit Coin"
-    mining_type: "Edit Type of Mining"
+    mining_type: "Edit Mining Type"
   showing:
     coin: "Coin"
-    mining_type: "Show Type of Mining"
+    mining_type: "Show Mining Type"
   notice_coin:
     created: "Coin was successfully created."
     updated: "Coin was successfully updated."
